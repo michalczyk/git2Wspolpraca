@@ -117,7 +117,7 @@ aside {
 
 /* Footer */
 footer {
-  background-color: rgb(237, 248, 255);
+  background-color: rgb(94, 214, 13);
   border-top: 1px solid lightgray;
   text-align: center;
   padding: 10px 0;
@@ -126,4 +126,5 @@ footer {
 footer p {
   margin: 0;
   text-shadow: 1px 1px rgb(130, 0, 104);
+  font-size: 30px;
 }
