@@ -1,0 +1,129 @@
+/* Reguły CSS */
+
+@import url("https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Cointainer */
+#container {
+  max-width: 1000px;
+  border: 2px solid black;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0 0 20px blue;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+/* Brand */
+.brand a,
+.brand img {
+  display: block;
+}
+
+/* Menu */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+nav ul li:hover {
+  background-color: aqua;
+}
+
+nav ul li a {
+  color: black;
+  padding: 10px 15px;
+  font-size: 18px;
+  display: block;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: rgb(95, 44, 142);
+  color: aqua;
+}
+
+/* Slider */
+.slider img {
+  display: block;
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  width: 70%;
+  padding: 30px;
+}
+
+article p {
+  font-size: 50px;
+  font-family: "Kolker Brush";
+}
+
+aside {
+  width: 30%;
+  padding: 20px;
+  background-color: rgb(237, 248, 255);
+  border-left: 1px dashed lightgrey;
+}
+
+.widget {
+  margin-bottom: 50px;
+}
+
+.widget img {
+  float: left;
+  margin: 0 15px 8px 0;
+}
+
+.links ul {
+  list-style-type: square;
+  padding-left: 18px;
+  margin: 0;
+}
+
+.links ul li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(237, 248, 255);
+  border-top: 1px solid lightgray;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+  text-shadow: 1px 1px rgb(130, 0, 104);
+}
