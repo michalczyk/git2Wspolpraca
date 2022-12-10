@@ -115,6 +115,25 @@ aside {
   margin-bottom: 10px;
 }
 
+li a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  border-bottom: 1px;
+  border-color: black;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+li a:hover {
+  background-color: rgb(32, 32, 32);
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  color:aliceblue;
+}
+
 /* Footer */
 footer {
   background-color: rgb(237, 248, 255);
